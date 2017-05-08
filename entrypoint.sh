@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-mkdir /var/drydock
+mkdir -p /var/drydock
 
 mkdir ~/.ssh
 echo -e "Host *\nStrictHostKeyChecking no" > ~/.ssh/config
