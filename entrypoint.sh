@@ -2,7 +2,7 @@
 
 mkdir -p /var/drydock
 
-mkdir ~/.ssh
+mkdir -p ~/.ssh
 echo -e "Host *\nStrictHostKeyChecking no" > ~/.ssh/config
 echo -e "$AUTHORIZED_KEYS" > ~/.ssh/authorized_keys
 echo -e "$PRIVATE_KEY" > ~/.ssh/id_rsa
